@@ -7,4 +7,34 @@ You come home from school and all you want to do is relax. That last a whole fiv
 ![Stack_of_Plates](Stack_of_Plates.jpg)
 
 ## Stack in Python
-Stacks in python are created using a list.
+### 1. Creating a Stack
+Stacks in python are created using a python list. A list can grow and shrink as the stack does. To create a list simply give it a name and create an empty list using `[]`.
+```python
+stack = []
+```
+### 2. Removing from a Stack
+With Stack you only want to remove from the end. You can either remove the item with a simple pop command or save the value to a variable
+```python
+#Removing Item
+stack.pop()
+#Removing and Saving Item
+value = stack.pop()
+```
+### 3. Adding to a Stack
+When adding to a stack you only want to add to the back of the stack. This is done with a simple push command. 
+```python
+stack.append(value)
+```
+### 4. Check if the Stack is empty
+There are cases where you want to know if the stack is empty or not. This is solved with an `if` statement.
+```python
+if len(stack) == 0:
+```
+## Performance
+Why stacks are so useful and used today is because of how fast they can perform. All up above operations are done in O(1) performance.
+## Usage
+Using stacks can help speed up your program however, just like everything in this world stacks have their time and place to be used. Stacks can only remove and add to the end of a list. What if you wanted to remove something from the middle? Or add something to the very beginning? Well a stack would not work. You would need to find a different solution. 
+## Example
+
+
+## Problem to Solve:
