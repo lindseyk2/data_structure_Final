@@ -10,9 +10,11 @@ print(f"Hash of 2594: {hash(2594)}")
 print(f"Hash of hello: {hash('hello')}")
 ```
 This code would result in:
+
 ![Hash_Code1](Picture/Hash_Code1.jpg)
 
 Or the code can result in this:
+
 ![Hash_Code2](Picture/Hash_Code2.jpg)
 
 Notice the string hashes changed between the two pictures. This is because the python `hash()` function will return a different value every time the code is ran. However it will stay consistent throughout the whole code. 
