@@ -4,7 +4,7 @@ Welcome to **Python Data Structure Turtorial** in this turtorial you will learn 
 
 ## The Topics are:
 - [Stack](1-Stack.md)
-- [Set](2-set.md)
+- [Set](2-Set.md)
 - [Tree](3-Tree.md)
 
 ## Publisher
