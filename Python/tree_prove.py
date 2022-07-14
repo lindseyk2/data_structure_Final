@@ -49,11 +49,17 @@ class BST:
     def _contains(self, data, node):
        
         #If the value does not exist return false
-        
+        if node is None:
+            return False
         #If the value is in the tree return true
-        
+        if node.data == data:
+            return True
         #Else Keep looking
-        pass
+        else:
+            if data < node.data:
+                return self._contains(data, node.left)
+            elif data > node.data:
+                return self._contains(data, node.right)
 
     def __iter__(self):
         yield from self._traverse_forward(self.root)  # Start at the root
